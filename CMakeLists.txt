@@ -39,8 +39,11 @@ cmake_minimum_required(VERSION 3.10)
 # particular introductory lessons. I have not achieved any official training or 
 # credentials in developing using cmake. I have acquired certification in C++, 
 # and am actively studying to receive additional certifications in C++.
-# I am having difficulty using abseil as it currently is, and for my development
-# process to proceed smoothly, I created this branch in efforts to improve my
-# development process. I currently have no plans to merge this branch into the
+# I am having difficulty using abseil across some of my environments
+# and use cases. Abseil is working good for me in some of my environments.
+# In efforts for my development process to continue proceeding 
+# smoothly, I am forking abseil. I currently have no plans to merge this branch into the
 # original abseil-cpp repository. More likely, but not planned, would be that
-# I make a pull request directly from my main fork.
+# I make a pull request directly from my main fork. My less-cmake-dev2 branch
+# is created for that purpose of sharing any new findings of mine back to
+# the main abseil project repository.
