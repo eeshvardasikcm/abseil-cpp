@@ -52,4 +52,4 @@ cmake_minimum_required(VERSION 3.10)
 # toward the main abseil repository. I have looked through some of the current issues,
 # and have some fixes in mind, but I really don't know the overall style and
 # code writing principles currently behind abseil, so I will continue down this course
-# as to avoid causing any unnecessary work for the abseil team.
+# right now as to avoid causing any unnecessary work for the abseil team.
