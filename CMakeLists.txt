@@ -46,4 +46,10 @@ cmake_minimum_required(VERSION 3.10)
 # original abseil-cpp repository. More likely, but not planned, would be that
 # I make a pull request directly from my main fork. My less-cmake-dev2 branch
 # is created for that purpose of sharing any new findings of mine back to
-# the main abseil project repository.
+# the main abseil project repository. It may turn out that making major midifications
+# to cmake will solve my difficulties with abseil in every case, and if so, then
+# I will likely be using a differently named branch to use for moving pull requests
+# toward the main abseil repository. I have looked through some of the current issues,
+# and have some fixes in mind, but I really don't know the overall style and
+# code writing principles currently behind abseil, so I will continue down this course
+# as to avoid causing any unnecessary work for the abseil team.
