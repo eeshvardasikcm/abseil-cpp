@@ -26,8 +26,8 @@ cmake_minimum_required(VERSION 3.10)
 # Please report any build issues directly to me by creating a new pull request to
 # this less-cmake-dev branch of my abseil-cpp fork.
 # If you are new to making pull requests on GitHub, please try your best to
-# create any pull request that passes GitHub pull requst validation on 
-# this brancs of my fork, and include some notes in the text area 
+# create any pull request that passes GitHub pull request validation on
+# this branch of my fork, and include some notes in the text area
 # box so I can handle your request according to your notes. If you would like to
 # GitHub with me on one of my other repositories or forks, please go to those
 # particular repositories or forks and have my GitHub pinged from there.
@@ -46,8 +46,8 @@ cmake_minimum_required(VERSION 3.10)
 # original abseil-cpp repository. More likely, but not planned, would be that
 # I make a pull request directly from my main fork. My less-cmake-dev2 branch
 # is created for that purpose of sharing any new findings of mine back to
-# the main abseil project repository. It may turn out that making major midifications
-# to cmake will solve my difficulties with abseil in every case, and if so, then
+# the main abseil project repository. It may turn out that making major modifications
+# to cmake will not solve my difficulties with abseil in every case, and if so, then
 # I will likely be using a differently named branch to use for moving pull requests
 # toward the main abseil repository. I have looked through some of the current issues,
 # and have some fixes in mind, but I really don't know the overall style and
