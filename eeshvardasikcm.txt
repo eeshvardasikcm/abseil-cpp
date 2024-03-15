@@ -1,0 +1,30 @@
+# I have added this eeshvardasikcm.txt file
+
+# I am not personally providing support for this project.
+# Any issues with the origin abseil-cpp repository should be made directly
+# to the abseil-cpp team on their repository.
+# Please report any build issues on this fork directly to me by creating a new 
+# pull request to this less-cmake-dev branch of my abseil-cpp fork.
+# If you are new to making pull requests on GitHub, please try your best to
+# create any pull request that passes GitHub pull request validation on
+# this branch of my fork, and include some notes in the text area
+# box so I can handle your request according to your notes. If you would like to
+# GitHub with me on one of my other repositories or forks, please go to those
+# particular repositories or forks and have my GitHub pinged from there.
+# Thank you,
+# EeshvarDasIKCM
+
+# I, EeshvarDasIKCM, have acquired certification in C++, 
+# and am actively studying to receive additional certifications in C++.
+# I am having difficulty using abseil across some of my environments
+# and use cases. Abseil is working good for me in some of my environments.
+# In efforts for my development process to continue proceeding 
+# smoothly, I am forking abseil. I currently have no plans to merge this branch into the
+# original abseil-cpp repository. This fixes branch may possibly lead to my discovery
+# of how to proceed contributing to the abseil-cpp repository. If I do discover
+# how to answer some issues on the origin abseil-cpp repository, I would likely
+# make a new branch at that time. I have looked through some of the current issues,
+# and have some fixes in mind, but I really don't know the overall style and
+# code writing principles currently behind abseil, so I will continue down this
+# course of action right now as 
+# to avoid causing any unnecessary work for the abseil team.
