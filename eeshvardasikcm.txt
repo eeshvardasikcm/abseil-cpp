@@ -31,5 +31,4 @@
 
 # Joke: John Cage could make a better composition than abseil, then again maybe not if abseil was a composer,
 # but abseil is not a composer. I have composed some music and set it to a video in a film format.
-
-
+# I don't care if any of the abseil authors have done the same.
