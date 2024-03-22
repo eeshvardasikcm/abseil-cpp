@@ -170,7 +170,6 @@ enum PadSpec : uint8_t {
   kSpacePad17,
   kSpacePad18,
   kSpacePad19,
-  kSpacePad20,
 };
 
 // -----------------------------------------------------------------------------
