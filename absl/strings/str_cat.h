@@ -153,12 +153,6 @@ struct Hex {
   template <typename Int>
   explicit Hex(
       Int v, PadSpec spec = absl::kNoPad,
-      typename std::enable_if<sizeof(Int) == 4 &&
-                              !std::is_pointer<Int>::value>::type* = nullptr)
-      : Hex(spec, static_cast<uint32_t>(v)) {}
-  template <typename Int>
-  explicit Hex(
-      Int v, PadSpec spec = absl::kNoPad,
       typename std::enable_if<sizeof(Int) == 8 &&
                               !std::is_pointer<Int>::value>::type* = nullptr)
       : Hex(spec, static_cast<uint64_t>(v)) {}
