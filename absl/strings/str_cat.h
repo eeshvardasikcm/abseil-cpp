@@ -141,7 +141,6 @@ enum PadSpec : uint8_t {
   kZeroPad7,
   kZeroPad8,
   kZeroPad9,
-  kZeroPad10,
 
   kSpacePad2 = kZeroPad2 + 64,
 };
