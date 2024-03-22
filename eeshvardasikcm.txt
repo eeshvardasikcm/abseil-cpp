@@ -50,3 +50,4 @@
 # This redesign fork of abseil starts at this point.
 # Hopefully fixes to the actual abseil will result from this fork.
 # My study of abseil will first have to achieve sufficient compliance.
+# If that time ever appears, I may revisit my fixes-dev branch of abseil.
