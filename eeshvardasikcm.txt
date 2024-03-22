@@ -42,3 +42,4 @@
 # I don't think so, but I don't know.
 
 # abseil has one major flaw that my redesign of abseil considers unnecessary to fix.
+# abseil explains upfront "Why Adopt Abseil", not "Why not adopt Abseil".
