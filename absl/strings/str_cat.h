@@ -150,12 +150,6 @@ struct Hex {
   uint8_t width;
   char fill;
 
-  template <typename Int>
-  explicit Hex(
-      Int v, PadSpec spec = absl::kNoPad,
-      typename std::enable_if<sizeof(Int) == 8 &&
-                              !std::is_pointer<Int>::value>::type* = nullptr)
-      : Hex(spec, static_cast<uint64_t>(v)) {}
   template <typename Pointee>
   explicit Hex(absl::Nullable<Pointee*> v, PadSpec spec = absl::kNoPad)
       : Hex(spec, reinterpret_cast<uintptr_t>(v)) {}
