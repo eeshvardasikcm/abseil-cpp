@@ -142,6 +142,7 @@ enum PadSpec : uint8_t {
 // Hex
 // -----------------------------------------------------------------------------
 //
+// Modified and may not work as described or at all.
 // `Hex` stores a set of hexadecimal string conversion parameters for use
 // within `AlphaNum` string conversions.
 struct Hex {
@@ -149,12 +150,6 @@ struct Hex {
   uint8_t width;
   char fill;
 
-  template <typename Int>
-  explicit Hex(
-      Int v, PadSpec spec = absl::kNoPad,
-      typename std::enable_if<sizeof(Int) == 1 &&
-                              !std::is_pointer<Int>::value>::type* = nullptr)
-      : Hex(spec, static_cast<uint8_t>(v)) {}
   template <typename Int>
   explicit Hex(
       Int v, PadSpec spec = absl::kNoPad,
