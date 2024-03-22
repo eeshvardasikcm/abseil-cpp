@@ -54,3 +54,4 @@
 # This redesign concept of mine appears to go along with the design of abseil.
 # https://abseil.io/about/philosophy#different-design-priorities-than-the-standard
 # abseil prioritizes actively used features over features that are not.
+# It appears, I will first have to become familiar with actively used abseil.
