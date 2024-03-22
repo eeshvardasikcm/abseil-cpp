@@ -134,7 +134,6 @@ struct AlphaNumBuffer {
 enum PadSpec : uint8_t {
   kNoPad = 1,
   kZeroPad2,
-  kZeroPad3,
 
   kSpacePad2 = kZeroPad2 + 64,
 };
