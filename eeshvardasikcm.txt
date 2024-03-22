@@ -47,3 +47,4 @@
 # the "Why Adopt Abseil" page excludes those that don't learn Abseil.
 # abseil has potential diamond dependency issues present, requiring compliance.
 # I am not sure how much study it will require to learn abseil.
+# This redesign of abseil starts at this point.
