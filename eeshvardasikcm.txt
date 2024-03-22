@@ -28,3 +28,7 @@
 # code writing principles currently behind abseil, so I will continue down this
 # course of action right now as 
 # to avoid causing any unnecessary work for the abseil team.
+
+# Joke: John Cage could make a better composition than abseil, then again maybe not if abseil was a composer.
+
+
