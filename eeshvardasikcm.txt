@@ -49,3 +49,4 @@
 # I am not sure how much study it will require to learn abseil.
 # This redesign fork of abseil starts at this point.
 # Hopefully fixes to the actual abseil will result from this fork.
+# My study of abseil will first have to achieve sufficient compliance.
