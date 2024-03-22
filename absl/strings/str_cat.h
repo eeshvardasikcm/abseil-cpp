@@ -126,6 +126,7 @@ struct AlphaNumBuffer {
 
 }  // namespace strings_internal
 
+// Enum PadSpec is modified. Description is not valid.
 // Enum that specifies the number of significant digits to return in a `Hex` or
 // `Dec` conversion and fill character to use. A `kZeroPad2` value, for example,
 // would produce hexadecimal strings such as "0a","0f" and a 'kSpacePad5' value
