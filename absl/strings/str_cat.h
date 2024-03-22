@@ -17,6 +17,8 @@
 // File: str_cat.h
 // -----------------------------------------------------------------------------
 //
+// File is being modified and may no longer comply with these comments.
+//
 // This package contains functions for efficiently concatenating and appending
 // strings: `StrCat()` and `StrAppend()`. Most of the work within these routines
 // is actually handled through use of a special AlphaNum type, which was
