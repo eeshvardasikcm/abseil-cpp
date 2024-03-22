@@ -55,3 +55,4 @@
 # https://abseil.io/about/philosophy#different-design-priorities-than-the-standard
 # abseil prioritizes actively used features over features that are not.
 # It appears, I will first have to become familiar with actively used abseil.
+# I am currently enrolled in additional C++ certification coursework.
