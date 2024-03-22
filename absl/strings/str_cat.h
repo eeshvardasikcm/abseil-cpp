@@ -189,6 +189,7 @@ struct Hex {
 // Dec
 // -----------------------------------------------------------------------------
 //
+// Modified and may not work as described or at all.
 // `Dec` stores a set of decimal string conversion parameters for use
 // within `AlphaNum` string conversions.  Dec is slower than the default
 // integer conversion, so use it only if you need padding.
@@ -197,17 +198,6 @@ struct Dec {
   uint8_t width;
   char fill;
   bool neg;
-
-  template <typename Int>
-  explicit Dec(Int v, PadSpec spec = absl::kNoPad,
-               typename std::enable_if<(sizeof(Int) <= 8)>::type* = nullptr)
-      : value(v >= 0 ? static_cast<uint64_t>(v)
-                     : uint64_t{0} - static_cast<uint64_t>(v)),
-        width(spec == absl::kNoPad       ? 1
-              : spec >= absl::kSpacePad2 ? spec - absl::kSpacePad2 + 2
-                                         : spec - absl::kZeroPad2 + 2),
-        fill(spec >= absl::kSpacePad2 ? ' ' : '0'),
-        neg(v < 0) {}
 
   template <typename S>
   friend void AbslStringify(S& sink, Dec dec) {
