@@ -18,5 +18,6 @@
 struct str_utility {
     static char mod(unsigned long long a, int b) {};
     static char const char_0 = '0';
+    static char replace_with_latter_char(char c, int howMuchLatter) {};
 };
 #endif //P012_STR_UTILITY_H
