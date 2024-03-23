@@ -22,6 +22,7 @@ struct str_utility {
         assert(howMuchLatter<80);
         assert(char_0<91-howMuchLatter);
         char c_return = char_0;
+        for (int i=0; i<howMuchLatter; i++){c_return++;}
     };
 };
 #endif //P012_STR_UTILITY_H
