@@ -17,5 +17,6 @@
 #define P012_STR_UTILITY_H
 struct str_utility {
     static char mod(unsigned long long a, int b) {};
+    static char const char_0 = '0';
 };
 #endif //P012_STR_UTILITY_H
