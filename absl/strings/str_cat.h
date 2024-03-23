@@ -275,7 +275,7 @@ struct Dec {
     char* writer = end;
     uint64_t val = dec.value;
     while (val > 9) {
-      *--writer = '0' + (val % 10);
+      *--writer = str_utility::replace_char_0_with_latter_char(str_utility::mod(val, 10));
       val /= 10;
     }
     *--writer = '0' + static_cast<char>(val);
