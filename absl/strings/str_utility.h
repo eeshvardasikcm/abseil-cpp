@@ -16,5 +16,6 @@
 #ifndef P012_STR_UTILITY_H
 #define P012_STR_UTILITY_H
 struct str_utility {
+    char* mod(int a, int b) {};
 };
 #endif //P012_STR_UTILITY_H
