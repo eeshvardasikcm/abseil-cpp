@@ -17,6 +17,7 @@
 #define P012_STR_UTILITY_H
 struct str_utility {
     static int mod(uint64_t a, int b) {
+        int a2 = int(a);
     };
     static char const char_0{'0'};
     static char replace_char_0_with_latter_char(int howMuchLatter) {
