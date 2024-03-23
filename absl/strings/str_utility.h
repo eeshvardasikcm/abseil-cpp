@@ -18,6 +18,7 @@
 struct str_utility {
     static int mod(uint64_t a, int b) {
         int a2 = int(a);
+        return a2 % b;
     };
     static char const char_0{'0'};
     static char replace_char_0_with_latter_char(int howMuchLatter) {
