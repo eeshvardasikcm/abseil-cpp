@@ -15,5 +15,5 @@
 //
 #ifndef P012_STR_UTILITY_H
 #define P012_STR_UTILITY_H
-
+struct str_utility {};
 #endif //P012_STR_UTILITY_H
