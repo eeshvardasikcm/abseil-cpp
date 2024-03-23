@@ -21,6 +21,7 @@ struct str_utility {
     static char replace_char_0_with_latter_char(int howMuchLatter) {
         assert(howMuchLatter<80);
         assert(char_0<91-howMuchLatter);
+        char c_return = char_0;
     };
 };
 #endif //P012_STR_UTILITY_H
