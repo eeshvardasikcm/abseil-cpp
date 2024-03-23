@@ -16,7 +16,8 @@
 #ifndef P012_STR_UTILITY_H
 #define P012_STR_UTILITY_H
 struct str_utility {
-    static char mod(unsigned long long a, int b) {};
+    static char mod(unsigned long long a, int b) {
+    };
     static char const char_0{'0'};
     static char replace_char_0_with_latter_char(int howMuchLatter) {
         assert(howMuchLatter<80);
