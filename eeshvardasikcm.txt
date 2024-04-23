@@ -29,18 +29,6 @@
 # course of action right now as 
 # to avoid causing any unnecessary work for the abseil team.
 
-# Joke: John Cage could make a better composition than abseil, then again maybe not if abseil was a composer,
-# but abseil is not a composer. I have composed some music and set it to a video in a film format.
-# I don't care if any of the abseil authors have done the same.
-# I don't see any abseil compositions on Google Play Music, or YouTube.
-# Not that I'm replacing C++ with music composition.
-# I'm not a composer and I don't know if composers can even do that.
-# EndOfJoke.
-# I wonder if that track on Google Play Music called Abseil Technimatic has anything to do with abseil.
-# Anyway, this track appears to be more of a vj mix than a composition to me, but I am not a music expert.
-# Does that mean all the vj mix fans and enthusiasts should be renamed, modified, and brought in compliance?
-# I don't think so, but I don't know.
-
 # abseil has one major flaw that my redesign of abseil considers unnecessary to fix.
 # abseil explains upfront "Why Adopt Abseil", not "Why not adopt Abseil".
 # (https://abseil.io/about/) Abseil about page has only "Why Adopt Abseil".
@@ -57,4 +45,3 @@
 # It appears, I will first have to become familiar with actively used abseil.
 # I am currently enrolled in additional C++ certification coursework.
 # the abseil C++ guide may detract from my current studies.
-# I am not a comedian.
